@@ -6,18 +6,18 @@ int d1=n&(1<<(p1));  // to know the value in that pos
 int d2=n&(1<<(p2));   // 
         if(d1){ 
           x=1;  
-        printf("x set\n");
+//         printf("x set\n");
         }
         if(d2){
           y=1;
-        printf("y set\n");
+//         printf("y set\n");
         }
         if(x==y){  // which check the two pos has same bits
-           return n;
-        printf("equal stmt");
+           return n; // if two position are set then return the number, no changes needed!!
+//         printf("equal stmt");
         }    
         else{
-          n^=(1<<p1);
+          n^=(1<<p1); 
          // printf("%d\n",n);
           n^=(1<<p2);
          // printf("%d\n",n);
