@@ -1,4 +1,5 @@
-public class Main{
+import java.util.Scanner;
+public class String_length{
       public static void main(String args[]){
           Scanner sc_input = new Scanner(System.in); // sc_input is a object name for getting input
           
